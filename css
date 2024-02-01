@@ -1,0 +1,57 @@
+body {
+  font-family: Noto Sans Mono;
+  background-color: #DBE7C9;
+  color: #50623A;
+  padding: 15px;
+  text-align: center;
+  }
+
+h1, h2, h3 {
+  font-family: Noto Sans Mono;
+  font-weight: 900; 
+  color: #294B29; 
+}
+li {
+  display: inline;
+}
+ul {
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  background-color: #765827;
+  border-radius: 50px;
+  padding: 4px;
+  color: #EAC696;
+  font-size: 18px; 
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+a:hover{
+  color: #C8AE7D;
+  background-color: #65451F;
+}
+#profile-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #65451F;
+}
+.intro {
+  background-color: white;
+  padding: 0;
+  width: 700px;
+  height: 450px;
+  margin: 25px auto;
+  border-radius: 10px;
+  border: 1px solid #294B29;
+} 
+.card {
+  background-color: white;
+  padding: 0;
+  width: 700px;
+  
+  margin: 25px auto;
+  border-radius: 10px;
+  border: 1px solid #294B29;  
+}
